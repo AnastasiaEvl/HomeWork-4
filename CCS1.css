@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {background: url(https://static.dw.com/image/19141420_403.jpg) no-repeat; background-size:370%;}
+
+a:link {color: crimson;}
+a:visited {color: dodgerblue;}
+a:hover {color:indigo;}
+
+#Minsk {
+	margin-left:20px;
+	background: #6A0C0D;
+	border: 20px double #F0C8C9;
+	width: 400px;
+	height: 550px;
+}
+
+.Pic1, .Pic2 {margin: 10px 10px 10px 10px;
+	width: 40%;}
+
+.Pic1 {float:left;
+	}
+.Pic2 {float:right;
+    }
+
+h5, h4, .p1, .p2, .p3, .p4 {text-align:justify;
+	margin: 20px 20px 20px 20px}
+
+h5 {font-style: italic;
+     color: darkgray;}
+h4 {font-style: oblique;
+     color:antiquewhite;}
+
+
+#Brest {margin-top: 90px;
+	margin-left: 400px;
+	background: #81C7D5;
+	border: 10px dotted #3E3939;
+	width: 400px;
+	height: 550px;
+}
+
+.p1:first-letter {font-size:200%;
+	color:brown;}
+
+.p1 {color:darkslategray;
+font-style:oblique;}
+
+.p2:after {content: ": «на Берестове, в селци, еже зооуть ныне Берестовое»";}
+
+.p2 {color:darkgreen;
+font-style:italic;}
+
+#Vitebsk {margin-top: 120px;
+	margin-left: 800px;
+	background: #D1E390;
+	border: 10px dashed #3E3939;
+	width: 400px;
+	height: 500px;}
+
+
+.p3 {color: brown;
+font-style:oblique;
+}
+
+.p4 {color: saddlebrown;
+font-style:oblique;
+}
+
+
